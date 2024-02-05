@@ -188,6 +188,5 @@ public class App extends JFrame implements ActionListener{
 
     UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());//changing system window instead of old default window.
     new App().setVisible(true);
-    System.out.println("Hello");
     }
 }
